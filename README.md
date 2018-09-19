@@ -1,5 +1,5 @@
 # Matlab
-Coursera hw6
+Coursera HWs
 
 
     
