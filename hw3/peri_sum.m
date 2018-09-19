@@ -1,0 +1,10 @@
+function s = peri_sum(A)
+a = A(1,:);
+as = sum(a);
+b = A(end,:);
+bs = sum(b);
+c = A(2:1:end-1,1);
+cs = sum(c);
+d = A(2:1:end-1,end);
+ds = sum(d);
+s = as + bs + cs + ds;
